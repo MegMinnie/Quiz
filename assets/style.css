@@ -110,8 +110,16 @@ a {
   display: flex;
   flex-direction: column;
   gap: 10px;
+  display: none;
 }
 
 .img-resultado {
   width: 100%;
+}
+
+.perguntas {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
 }
