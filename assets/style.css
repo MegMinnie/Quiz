@@ -1,0 +1,117 @@
+* {
+  box-sizing: border-box;
+  margin: 0%;
+  padding: 0%;
+}
+
+body {
+  min-height: 100svh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+header {
+  width: 100%;
+  text-align: center;
+  padding: 6px;
+  box-shadow: 3px 3px 3px rgb(32, 30, 30);
+  font-size: 20px;
+  color: #3a589a;
+}
+
+img {
+  height: 250px;
+}
+main {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  font-family: sans-serif;
+}
+
+.texto {
+  padding: 5%;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  text-align: justify;
+}
+
+.play {
+  width: 40%;
+  margin: 0 auto;
+  padding: 10px;
+  background-color: #3a589a;
+  border: none;
+  color: white;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.play:hover {
+  background-color: #2e4880;
+}
+
+.quiz-container {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.quadro {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 10px;
+}
+
+button {
+  border: 1px solid rgb(189, 185, 185);
+  padding: 10px;
+  background-color: white;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #3a589a;
+  color: white;
+}
+
+button:active {
+  background-color: #2e4880;
+}
+
+a {
+  text-decoration: none;
+}
+
+.numero {
+  border: 1px solid rgb(231, 223, 223);
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0% auto;
+}
+
+.resultado {
+  background-color: #3a589a;
+  padding: 15px;
+  width: 100%;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.img-resultado {
+  width: 100%;
+}
