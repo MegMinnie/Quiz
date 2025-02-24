@@ -4,6 +4,7 @@ document.addEventListener("DOMContentLoaded", function () {
   const resultado = document.querySelector(".resultado");
   const resposta = document.querySelector(".resposta");
   const descricaoResultado = document.querySelector(".descricao-resultado");
+  const imgResultado = document.querySelector(".img-resultado");
 
   let pontuacao = 0;
   let respostasSelecionadas = 0;
@@ -40,12 +41,15 @@ document.addEventListener("DOMContentLoaded", function () {
         if (pontuacao >= 8 && pontuacao < 16) {
           resposta.innerHTML = `Você não é uma bruxa`;
           descricaoResultado.innerHTML = `Não encontramos sinais fortes de bruxaria, mas continue explorando!`;
+          imgResultado.style.backgroundImage = "url('assets/bruxa3.png')";
         } else if (pontuacao >= 16 && pontuacao <= 20) {
           resposta.innerHTML = `Parabéns, você pode ser uma bruxa!`;
           descricaoResultado.innerHTML = `Você tem traços de uma bruxa, mas ainda há mais para descobrir.`;
+          imgResultado.style.backgroundImage = "url('assets/bruxa2.png')";
         } else {
           resposta.innerHTML = `Parabéns, você é uma bruxa`;
-          descricaoResultado.innerHTML = `Você possui uma forte conexão com o miticismo!`;
+          descricaoResultado.innerHTML = `Você possui uma forte conexão com o misticismo!`;
+          imgResultado.style.backgroundImage = "url('assets/bruxa1.png')";
         }
       }
     });
