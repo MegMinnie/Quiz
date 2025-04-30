@@ -5,8 +5,8 @@ Quiz sobre bruxas
   <div>
     <img src="https://img.shields.io/static/v1?label=HTML5&message=5.2&color=red&style=for-the-badge&logo=HTML5"/> 
     <img src="https://img.shields.io/static/v1?label=JavaScripty&message=5.1&color=yellow&style=for-the-badge&logo=JavaScript"/>
-    <img src="https://img.shields.io/static/v1?label=CSS3&message=5.1&color=indigo&style=for-the-badge&logo=CSS3"/>
-    <img src="https://img.shields.io/static/v1?label=License&message=5.1&color=pink&style=for-the-badge&logo=License"/>
+    <img src="https://img.shields.io/static/v1?label=CSS3&message=5.1&color=pink&style=for-the-badge&logo=CSS3"/>
+    <img src="https://img.shields.io/static/v1?label=License&message=5.1&color=blue&style=for-the-badge&logo=License"/>
       </div><br>
 </div>
 
