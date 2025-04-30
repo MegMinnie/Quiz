@@ -21,4 +21,10 @@ Quiz sobre bruxas
 <p>Acesse a aplicação por meio do link: <a href="https://megminnie.github.io/QUIZ/
 "_blank">clique aqui</a></p>
 
+## *Screenshots*
+  ![tela1](assets/tela1.png)
+  ![tela2](assets/tela2.png)
+  ![tela3](assets/tela3.png)
+
+  </div>
 
